@@ -1,0 +1,31 @@
+body {
+	font-family: Times New Roman;
+	/*font-family:Comic Sans MS;*/
+	font-size: 18px;
+	color: #FFFFFF;
+	background: #272525 url(images/b1.jpg) repeat;
+}
+
+a:link, a:visited { color: #FFFFFF; text-decoration: none; font-weight: normal; } 
+a:active, a:hover { color: #FF794D; text-decoration: underline; }
+
+#search_button {
+	width: 148px;
+ 	height: 45px;
+	cursor: pointer;	
+	text-align: center;
+	background: url(images/home1.png) no-repeat; 
+	transition: all .1s linear;
+	cursor: pointer;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	font-family:Times New Roman;
+    float: center;
+	border: none;
+}
+
+#search_button:hover {
+  transform: translateY(3px);
+}
+

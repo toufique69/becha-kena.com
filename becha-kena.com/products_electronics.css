@@ -1,0 +1,163 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Times New Roman;
+  font-size: 16px;
+  color: #384047;
+  background: #272525 url(images/b1.jpg) repeat;
+}
+
+a:link, a:visited { color: #FFFFFF; text-decoration: none; font-weight: normal; } 
+a:active, a:hover { color: #FF794D; text-decoration: underline; }
+
+
+form {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 1px 10px;
+  background: #f4f7f8;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0 0 5px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  font-family: Times New Roman;
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 14px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 5px;
+  width: 100%;
+  background-color:#D8D8D8;
+  color: #151515;
+  box-shadow: 0 5px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 5px;
+}
+
+textarea:hover{
+	box-shadow: 0 0 .5em #40A9DF;
+}
+
+input:hover{
+	 box-shadow: 0 0 .5em #40A9DF;
+	 
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 5px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding:5px 20px;
+  color: #FFF;
+  background-color: #F77D34;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  width: 100%;
+  border:0;
+  border-radius: 8px;
+ -webkit-border-radius: 0.3em;
+  -o- border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  background:#F77D34;
+  box-shadow: 0 5px 0 #FFB280;
+  font-family: Times New Roman;
+  margin-bottom: 10px;
+}
+
+button:hover{
+  background: #FF5C33;
+  box-shadow: 0 5px 0 #FF944D;
+  transform: translateY(3px);
+}
+
+fieldset {
+  margin-bottom: 2px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 750px) {
+
+  form {
+    max-width: 600px;
+  }
+
+}
+
+#search_button {
+  width: 180px;
+  height: 30px;
+  cursor: pointer;  
+  text-align: center;
+  background: url(images/admin1.png) no-repeat; 
+  transition: all .1s linear;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  font-family:Times New Roman;
+    float: center;
+  border: none;
+}
+
+#search_button:hover {
+  transform: translateY(3px);
+}

@@ -1,0 +1,412 @@
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Times New Roman;
+	/*font-family:Comic Sans MS;*/
+	font-size: 18px;
+	color: #FFFFFF;
+	background: #272525 url(images/templatemo_top_bg.jpg) repeat-x;
+}
+
+a:link, a:visited { color: #FFFFFF; text-decoration: none; font-weight: normal; } 
+a:active, a:hover { color: #FF794D; text-decoration: underline; }
+
+p {
+	margin: 0px;
+	padding: 0px;
+	text-align: justify;
+}
+
+img {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+
+.margin_bottom_10 { clear: both; width: 100%; height: 10px; font-size: 1px;	}
+.margin_bottom_20 { clear: both; width: 100%; height: 20px; font-size: 1px;	}
+.margin_bottom_30 { clear: both; width: 100%; height: 30px; font-size: 1px;	}
+.margin_bottom_40 { clear: both; width: 100%; height: 40px; font-size: 1px;	}
+.margin_bottom_50 { clear: both; width: 100%; height: 50px; font-size: 1px;	}
+.margin_bottom_60 { clear: both; width: 100%; height: 60px; font-size: 1px;	}
+
+.margin_right_10 { margin-right: 10px; }
+.margin_right_60 { margin-right: 60px; }
+
+.horizontal_divider {
+	background: url(images/templatemo_horizontal_divider.jpg) bottom repeat-x;
+}
+
+.border_bottom {
+	border-bottom: 1px dashed #000;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+#templatemo_wrapper_outer {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#templatemo_wrapper_inner {
+	width: 980px;
+	margin: 0 auto;
+	padding: 0 5px;
+	background: url(images/templatemo_wrapper_bg.png) repeat-y;
+}
+
+#templatemo_content_wrapper {
+	clear: both;
+	width: 960px;
+	padding: 10px;
+}
+
+.templatemo_content {
+	float: left;
+	width: 460px;
+	padding: 20px 19px 0 19px;
+	background: #1b1919;
+	border: 1px solid #363434;
+}
+
+.header_01 {
+	padding: 0 0 5px 0;
+	margin: 0 0 10px 0;
+	font-size: 18px;
+	color: #FF794D;
+	font-family: bold;
+}
+
+
+.header_02 {
+	padding: 0 0 5px 0;
+	margin: 0 0 10px 0;
+	font-size: 26px;
+	color: #FF794D;
+	font-family: bold;
+}
+
+.header_03 {
+	padding: 0 0 5px 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.header_03 a { color: #ffffff; text-decoration: none; }
+.header_03 a:hover { color: #FF794D; }
+
+.templatemo_side_bar {
+	float: left;
+	width: 180px;
+	padding: 20px 19px 0 19px;
+	background: #1b1919;
+	border: 1px solid #363434;	
+}
+
+.templatemo_side_bar ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.templatemo_side_bar ul li {
+	margin: 0px;
+	padding: 0 0 0 0;
+	margin-bottom: 5px;
+	border-left: 5px solid #000;
+	list-style: none;
+}
+
+.templatemo_side_bar ul li a {
+	display: block;
+	background: #242224;
+	padding: 5px 0 5px 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.templatemo_side_bar ul li a:hover {
+	color: #ffffff;
+	background: #000;
+}
+
+.templatemo_side_bar form {
+	margin: 0px;
+	padding: 0px;
+}
+
+#search_field {
+	padding: 5px 0 0 0;
+	height: 20px;
+	width: 175px;
+	margin-bottom: 10px;
+}
+
+#search_button {
+	float: right;
+	width: 120px;
+ 	height: 30px;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+	font-size: 12px;
+	text-align: center;
+	white-space: pre;
+	background: url(images/search.png) no-repeat; 
+	color: #000000;
+	transition: all .1s linear;
+	cursor: pointer;
+    font: inherit;
+	border: none;
+}
+
+#search_button:hover {
+  transform: translateY(3px);
+}
+
+.content_section {
+	clear: both;
+	padding: 0 0 0 0;
+}
+
+.content_section p span {
+	color: #ffffff;
+}
+
+.image_wrapper_01 {
+	float: left;
+	position: relative;
+	margin: 3px 6px 0 0;
+	background: #131212;
+	padding: 4px;
+}
+
+.image_wrapper_01 img {
+	border: 1px solid #363434;
+}
+
+.image_wrapper_1 {
+	float: left;
+	position: relative;
+	margin: 3px 0px 0 0;
+	background: #131212;
+	padding: 4px;
+}
+
+.image_wrapper_1 img {
+	border: 1px solid #363434;
+}
+
+.image_wrapper_02 {
+	position: relative;
+	margin: 0 0 10px 0;
+	background: #131212;
+	padding: 4px;
+}
+
+.image_wrapper_02 span {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	bottom: 10px;
+	right: 10px;
+	background: url(images/templatemo_play_icon.jpg) no-repeat;
+}
+
+.image_wrapper_02:hover span {
+	background: url(images/templatemo_play_icon_hover.jpg) no-repeat;
+}
+
+.image_wrapper_02 img {
+	border: 1px solid #363434;
+}
+
+.image_wrapper img {
+	border: 1px solid #363434;
+}
+
+.latest_news {
+	clear: both;
+	padding-bottom: 10px;
+}
+
+#templatemo_footer {
+	clear: both;
+	width: 990px;
+	height: 40px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	text-align: center;
+	font-family: Courier New;
+	font-size: 15px;
+	background: url(images/templatemo_footer.jpg) no-repeat;
+}
+
+
+/*iamge css*/
+
+.card-container {
+  cursor: pointer;
+  height: 145px;
+  width: 220px;
+  padding-top:555px;
+  margin-left:741px;
+}
+.card {
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card .back {
+  background: #272525;
+  color: #0087cc;
+  background:url(images/left2.png);
+  transform: rotateY(180deg);
+}
+
+
+/****dropdown****/
+
+#wrap {
+width: 100%; /* Spans the width of the page */
+height: 65px;
+margin: 0; /*Ensures there is no space between sides of the screen and the menu */
+z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+position: relative;
+background: url(images/templatemo_menu_bg.jpg) no-repeat;
+}
+
+
+.navbar {
+height: 50px;
+padding: 0;
+margin: 0;
+padding-left:38px;
+position: absolute; /* Ensures that the menu doesn’t affect other elements */
+}
+
+
+.navbar li {
+height: auto;
+width: 150px; /* Each menu item is 150px wide */
+float: left; /* This lines up the menu items horizontally */
+text-align: center; /* All text is placed in the center of the box */
+list-style: none; /* Removes the default styling (bullets) for the list */
+font: normal bold 15px/0.9em Times New Roman;
+padding: 0;
+margin: 0;
+background: url(images/templatemo_menu_bg.jpg) no-repeat;
+}
+
+.navbar a {
+padding: 18px 0; /* Adds a padding on the top and bottom so the text appears centered vertically */
+/*border-left: 1px solid #1B1919; /* Creates a border in a slightly lighter shade of blue than the background. Combined with the right border, this creates a nice effect. */
+border-right: 1px solid #505050; /* Creates a border in a slightly darker shade of blue than the background. Combined with the left border, this creates a nice effect. */
+text-decoration: none; /* Removes the default hyperlink styling. */
+color: white; /* Text color is white */
+display: block;
+}
+
+.navbar li:hover, a:hover {background-color: #1B1919;}
+
+.navbar li ul {
+display: none; /* Hides the drop-down menu */
+height: auto;
+margin: 0; /* Aligns drop-down box underneath the menu item */
+padding: 0; /* Aligns drop-down box underneath the menu item */
+}
+
+.navbar li:hover ul {
+display: block; /* Displays the drop-down box when the menu item is hovered over */
+}
+
+
+.navbar li ul li {background-color: #54879d;}
+
+
+.navbar li ul li a {
+border-left: 1px solid #505050;
+border-right: 1px solid #505050;
+border-top: 1px solid #505050;
+border-bottom: 1px solid #fff;
+}
+
+.navbar li ul li a:hover {background-color: #1B1919;text-decoration: underline}
+
+#inner {
+  width: 980px;
+  margin: 0 auto;
+  padding: 0 0;
+  background: url(images/templatemo_wrapper_bg.png) repeat-y;
+}
+
+
+#my-slider-id {
+  width: 980px;
+  height: 300px;
+  padding: 0;
+  margin: 0 0 0px 0;
+}
+
+.player-container {
+      height: 28px;
+      white-space: nowrap;
+      }
+      .player-pause, .player-play, .player-forward, .player-back {
+      /* this displays element as inline-block; zoom and *display is a hack for ie7 which does not support inline-block */
+      display: inline-block;
+      zoom: 1;
+      *display: inline;
+      cursor: pointer;
+      margin-left: 5px;
+      height: 28px;
+      width: 33px;
+      background-image: url(http://beaverslider.com/code/current/player.png);
+      }
+      .player-pause {
+      background-position: -199px 0;
+      width: 28px;
+      }
+      .player-pause:hover {
+      background-position: -161px 0;
+      }
+      .player-play {
+      background-position: -356px 0;
+      width: 28px;
+      }
+      .player-play:hover {
+      background-position: -319px 0;
+      }
+      .player-back {
+      background-position: -275px 0;
+      }
+      .player-back:hover {
+      background-position: -234px 0;
+      }
+      .player-forward {
+      background-position: -434px 0;
+      }
+      .player-forward:hover {
+      background-position: -393px 0;
+      }

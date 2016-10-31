@@ -1,0 +1,145 @@
+body {
+  background: #272525 url(images/b1.jpg) repeat;
+  font-family: Comic Sans Ms;
+}
+
+a:link, a:visited { color: #FFFFFF; text-decoration: none; font-weight: normal; } 
+a:active, a:hover { color: #FF794D; text-decoration: underline; }
+
+/*div.table-title {
+  display: block;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+}*/
+
+/*** Table Styles **/
+
+.table-fill {
+  /*background: #fff;
+  border-radius:3px;*/
+  border-collapse: collapse;
+  /*height: 320px;*/
+  margin: auto;
+  /*padding:50px;*/
+  width: 1200px;
+  /*box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);*/
+  animation: float 5s infinite;
+}
+ 
+th {
+  color:#ddd;
+  background:#1b1e24;
+  border-bottom:1px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:16px;
+  padding:15px;
+  text-align:center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  /*vertical-align:middle;*/
+}
+
+th:first-child {
+  border-top-left-radius:10px;
+}
+ 
+th:last-child {
+  border-top-right-radius:10px;
+  border-right:none;
+}
+  
+tr {
+  border-top: .1px solid #424242;
+  border-bottom: .1px solid #424242;
+  color:#fff;
+  /*font-size:18px;
+  font-weight:normal;*/
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+tr:hover td {
+  background:#0B2F3A;
+  color:#F5DA81;
+  border-top: .5px solid #22262e;
+  border-bottom: .5px solid #22262e;
+}
+ 
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+ 
+tr:nth-child(odd) td {
+  background:#1C1C1C;
+}
+ 
+tr:nth-child(odd):hover td {
+  background:#0B2F3A;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:10px;
+}
+ 
+tr:last-child td:last-child {
+  border-bottom-right-radius:10px;
+}
+ 
+td {
+  background:#2E2E2E;
+  padding:12px;
+  text-align:left;
+  vertical-align:middle;
+  font-size:15px;
+  width:150px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #424242;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left {
+  text-align: left;
+}
+
+th.text-center {
+  text-align: center;
+}
+
+th.text-right {
+  text-align: right;
+}
+
+td.text-left {
+  text-align: left;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
+}
+
+
+#order {
+  width: 190px;
+  height: 40px;
+  cursor: pointer;  
+  background: url(images/order.png) no-repeat; 
+  transition: all .1s linear;
+  cursor: pointer;
+  float: center;
+  border: none;
+}
+
+#order:hover {
+  transform: translateY(3px);
+}
