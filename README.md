@@ -14,11 +14,11 @@ PHP,HTML,CSS,JavaScript,MySql Project
 
 # LOG IN OPTIONS OF THIS PROJECT #
 1. If you want to Log In as Admin
-   Username : Toufique
-   Password : sdadmin
+Username : Toufique
+and Password : sdadmin
 
 2. If you want to Log In as User
-   E-mail : toufique.007@live.com
-   Password : sduser
-   
-   You can also create a user by the use of the website
+E-mail : toufique.007@live.com
+Password : sduser
+
+You can also create a user by the use of the website
