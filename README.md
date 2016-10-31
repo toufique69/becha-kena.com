@@ -21,4 +21,6 @@ and Password : sdadmin
 E-mail : toufique.007@live.com
 and Password : sduser
 
-You can also create a user by the use of the website
+You can also create a user by the use of the website beha-kena.com
+
+* If you face problem to run this project then use XAMPP Version: xampp-win32-1.8.3-5-VC11
