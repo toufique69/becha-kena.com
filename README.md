@@ -19,6 +19,6 @@ and Password : sdadmin
 
 2. If you want to Log In as User
 E-mail : toufique.007@live.com
-Password : sduser
+and Password : sduser
 
 You can also create a user by the use of the website
