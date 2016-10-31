@@ -1,5 +1,5 @@
 # becha-kena.com
-PHP Project 
+PHP,HTML,CSS,JavaScript,MySql Project 
 
 # IF YOU WANT TO RUN THIS PROJECT ON LOCAL PC #
 1. First of all, install XAMPP on your PC.
@@ -20,3 +20,5 @@ PHP Project
 2. If you want to Log In as User
    E-mail : toufique.007@live.com
    Password : sduser
+   
+   You can also create a user by the use of the website
