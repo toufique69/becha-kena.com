@@ -11,6 +11,7 @@ PHP,HTML,CSS,JavaScript,MySql Project
 7. Use Google Chrome or Mozilla Firefox to run the project.
 8. And You are done.
 
+* If you face problem to run this project then use XAMPP Version: xampp-win32-1.8.3-5-VC11
 
 # LOG IN OPTIONS OF THIS PROJECT #
 1. If you want to Log In as Admin
@@ -21,6 +22,6 @@ and Password : sdadmin
 E-mail : toufique.007@live.com
 and Password : sduser
 
-You can also create a user by the use of the website beha-kena.com
+* You can also create a user by the use of the website beha-kena.com
 
-* If you face problem to run this project then use XAMPP Version: xampp-win32-1.8.3-5-VC11
+
