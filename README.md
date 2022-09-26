@@ -1,7 +1,7 @@
 # becha-kena.com
-Platform: Web-based; Language: PHP, HTML, CSS, JavaScript; Database: MySQL; Software: XAMPP, Sublime Text.
+### Platform: Web-based; Language: PHP, HTML, CSS, JavaScript; Database: MySQL; Software: XAMPP, Sublime Text.
 
-# IF YOU WANT TO RUN THIS PROJECT ON LOCAL PC #
+#### IF YOU WANT TO RUN THIS PROJECT ON LOCAL PC
 1. First of all, install XAMPP on your PC.
 2. Then keep the becha-kena.com folder in htdocs folder which you find on XAMPP installation directory.
 3. After that run XAMPP Control Panel and start Apache and MySql. 
@@ -13,7 +13,7 @@ Platform: Web-based; Language: PHP, HTML, CSS, JavaScript; Database: MySQL; Soft
 
 * If you face problem to run this project then use XAMPP Version: xampp-win32-1.8.3-5-VC11
 
-# LOG IN OPTIONS OF THIS PROJECT #
+#### LOG IN OPTIONS OF THIS PROJECT 
 1. If you want to Log In as Admin
 Username : Toufique
 and Password : sdadmin
