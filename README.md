@@ -23,5 +23,3 @@ E-mail : toufique.007@live.com
 and Password : sduser
 
 * You can also create a user by the use of the website beha-kena.com
-
-
