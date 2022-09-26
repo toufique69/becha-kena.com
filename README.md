@@ -1,5 +1,5 @@
 # becha-kena.com
-PHP,HTML,CSS,JavaScript,MySql Project 
+Platform: Web-based; Language: PHP, HTML, CSS, JavaScript; Database: MySQL; Software: XAMPP, Sublime Text.
 
 # IF YOU WANT TO RUN THIS PROJECT ON LOCAL PC #
 1. First of all, install XAMPP on your PC.
